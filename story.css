@@ -1,0 +1,109 @@
+body {
+    font-family: 'Assistant', 'Segoe UI', sans-serif;
+    background-color: #fafafc; /* רקע דף כמעט לבן */
+    margin: 0;
+    padding: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+    border-bottom: 2px white solid;
+}
+
+header h1 {
+    margin: 0;
+    color: #7a8ba3;
+    font-size: 2.5rem;
+}
+
+header p {
+    color: #a0aec0;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.02);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.8);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #5a6778;
+}
+
+.read-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: white;
+    color: #7a8ba3;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.read-btn:hover {
+    background-color: #5a6778;
+    color: white;
+}
+
+/* צבעי פסטל לכרטיסים */
+.pastel-green { background-color: #e6fffa; }
+.pastel-blue { background-color: #ebf8ff; }
+.pastel-pink { background-color: #fff5f7; }
+.pastel-purple { background-color: #faf5ff; }
+.pastel-yellow { background-color: #fffff0; }
+.pastel-orange { background-color: #fffaf0; }
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #a1acb8;
+}
+a{
+    text-decoration: none;
+color: #a1acb8; 
+}
+.copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* אפקט מעבר עכבר עדין */
+  .copy-btn:hover {
+    background-color: #f0f0f0;
+  }
+
+  
